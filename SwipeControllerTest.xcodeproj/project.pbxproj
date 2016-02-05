@@ -12,6 +12,7 @@
 		E4EC58C91C651C5400775015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EC58C71C651C5400775015 /* Main.storyboard */; };
 		E4EC58CB1C651C5400775015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EC58CA1C651C5400775015 /* Assets.xcassets */; };
 		E4EC58CE1C651C5400775015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EC58CC1C651C5400775015 /* LaunchScreen.storyboard */; };
+		E4EC58D61C651CB900775015 /* EZSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC58D51C651CB900775015 /* EZSwipeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E4EC58CA1C651C5400775015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4EC58CD1C651C5400775015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4EC58CF1C651C5400775015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EC58D51C651CB900775015 /* EZSwipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EZSwipeController.swift; path = "../../../../../Downloads/EZSwipeController-master/EZSwipeController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E4EC58C31C651C5400775015 /* AppDelegate.swift */,
 				E4EC58C51C651C5400775015 /* ViewController.swift */,
+				E4EC58D51C651CB900775015 /* EZSwipeController.swift */,
 				E4EC58C71C651C5400775015 /* Main.storyboard */,
 				E4EC58CA1C651C5400775015 /* Assets.xcassets */,
 				E4EC58CC1C651C5400775015 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EC58D61C651CB900775015 /* EZSwipeController.swift in Sources */,
 				E4EC58C61C651C5400775015 /* ViewController.swift in Sources */,
 				E4EC58C41C651C5400775015 /* AppDelegate.swift in Sources */,
 			);
